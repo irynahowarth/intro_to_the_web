@@ -18,5 +18,5 @@ get '/old' do
 end
 
 get '/cat' do
-  "<img src='http://bit.ly/1eze8aE' style='border: 3px dotted red'>"
+  erb(:index)
 end
