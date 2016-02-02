@@ -16,3 +16,7 @@ end
 get '/old' do
   'Old Page'
 end
+
+get '/cat' do
+  "<img src='http://bit.ly/1eze8aE' style='border: 3px dotted red'>"
+end
